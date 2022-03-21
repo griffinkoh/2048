@@ -41,8 +41,8 @@ body{
     font-weight: bold;
     top: calc(var(--y) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
     left: calc(var(--x) * (var(--cell-size) + var(--cell-gap)) + var(--cell-gap));
-    background-color: hsl(200, 50%, var(--background-lightness));
-    color: hsl(200, 25%, var(--text-lightness));
+    background-color: hsl(160, 50%, var(--background-lightness));
+    color: hsl(160, 25%, var(--text-lightness));
     animation: show 200ms ease-in-out;
     transition: 100ms ease-in-out;
 }
